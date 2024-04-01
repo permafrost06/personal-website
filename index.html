@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+		Zahin Azmayeen | permafrost06
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="particulars">
+			<img class="portrait" src="Zahin_Azmayeen_square.jpg"><img>
+			<p class="name">Zahin Azmayeen</p>
+			<p class="company">Software Engineer at <a href="https://dotcamp.com">Dotcamp</a></p>
+		</div>
+		<div class="socials">
+			<p><img class="social-logo" src="email-logo.png"></img><a href="mailto:zahin06@gmail.com">zahin06@gmail.com</a></p>
+			<p><img class="social-logo" src="github-mark-white.png"></img><a href="https://github.com/permafrost06">github.com/permafrost06</a></p>
+			<p><img class="social-logo" src="In-White-128.png"></img><a href="https://www.linkedin.com/in/zahin-azmayeen-498402135/">LinkedIn - Zahin Azmayeen</a></p>
+		</div>
+	</div>
+	<p class="easter-egg"><a href="https://github.com/permafrost06/dotfiles">i use arch btw</a><p>
+<style>
+	@media (max-width: 400px), (max-height: 400px) {
+		:root {
+			font-size: 12px;
+		}
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		/*--bg-light: rgb(32, 32, 32);
+		--bg-dark: rgb(0, 0, 0);
+		background: rgb(74,74,74);
+		background: linear-gradient(
+			0deg,
+			var(--bg-light) 0%,
+			var(--bg-dark) 3%,
+			var(--bg-dark) 97%,
+			var(--bg-light) 100%
+		);
+		background: rgb(67, 72, 67);*/
+		background: rgb(19, 19, 19);
+		color: white;
+		font-family: "Inter", sans-serif;
+	}
+
+	.portrait {
+		height: 50dvh;
+		margin-bottom: .5rem;
+	}
+
+	a {
+		color: white;
+	}
+
+	.container {
+		padding: 1rem;
+		margin-inline: auto;
+		width: fit-content;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: calc(100dvh - 2rem);
+	}
+
+	.socials {
+		padding-bottom: 1rem;
+	}
+
+	.socials p {
+		justify-content: center;
+	}
+
+	@media (orientation: landscape) {
+		.container {
+			display: grid;
+			place-items: center;
+
+			grid-template-columns: 1fr 1.5fr;
+			gap: 5rem;
+
+			height: 100dvh;
+			width: initial;
+
+			padding: 0;
+		}
+
+		.portrait {
+			margin-bottom: 2rem;
+		}
+
+		.socials {
+			margin-right: auto;
+			padding-bottom: 0;
+		}
+
+		.socials p {
+			justify-content: initial;
+		}
+	}
+
+	@media (max-width: 400px), (max-height: 400px) {
+		.container {
+			gap: 2rem;
+		}
+	}
+
+	.particulars {
+		margin-left: auto;
+		text-align: right;
+	}
+
+	.social-logo {
+		height: 2rem;
+	}
+
+	.socials p {
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+		padding: .5rem;
+	}
+
+	.name {
+		font-size: 2.027rem;
+	}
+
+	.designation {
+		font-size: 1.802rem;
+	}
+
+	.company {
+		font-size: 1.266rem;
+	}
+
+	.easter-egg {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+	}
+
+	.easter-egg a {
+		color: rgb(30, 30, 30);
+	}
+</style>
+</body>
+</html>
